@@ -1,0 +1,7 @@
+.wrapper {
+    max-width: 90%;
+}
+
+.footer, .push {
+    margin: 12px 12px 12px 12px;
+}

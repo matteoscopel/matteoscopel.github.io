@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Source Serif Pro", serif;
+    font-size: 17px;
+    line-height: 1.75;
+    word-wrap: break-word;
+    background-image: url("noise.png");
+}
+
+figure {}
+
+figure.photostream {
+    margin-bottom: 30px;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 36px;
+    color: darkgreen;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+h1, h2, h3, h4 {
+    text-transform: lowercase;
+}
+
+p {
+    text-indent: 20px
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkblue;    
+}
+
+a:link.hlink, a:visited.hlink {
+    text-decoration: none;
+    color: inherit;
+}
+
+blockquote {
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: darkgreen;
+    padding: 8px 10px 8px 10px;
+    background-color: #F8F8F8;
+    margin: 20px;
+    font-size: 18px;
+}
+
+img {
+    margin: 10px none 10px none;
+}
+
+time.postdate{
+    color: darkslategrey;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav.photostream {
+    font-size: 18px;
+    color: darkslategrey;
+    text-align: center;
+}
+
+.head {
+    margin-bottom: 3em;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -2em;
+}
+
+.footer, .push {
+    height: 2em;
+    font-size: 15px;
+    color: darkslategray;
+    text-align: center;
+}
+.post {
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    blackground-color: black;
+}
+
+.bottomlinks {
+    color: darkslategrey;
+}
+
+.block {
+    display: block;
+}
+
+.footnotes {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
